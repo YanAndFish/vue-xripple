@@ -1,6 +1,6 @@
 {
   "name": "vue-xripple",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ripple effect for google material design",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
