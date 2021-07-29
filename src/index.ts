@@ -2,8 +2,7 @@
 import './style.css'
 
 // Types
-import { VNode, VNodeDirective } from 'vue'
-import Vue from 'vue/types/umd'
+import Vue, { VNode, VNodeDirective } from 'vue'
 
 // Utilities
 const keyCodes = {
@@ -370,11 +369,11 @@ export const Ripple = {
   update
 }
 
-export function install (vue: typeof Vue): void {
+export function install (vue: typeof Vue, options?: any): void {
   vue.directive('ripple',Ripple)
 }
 
 export default {
   install,
-  Ripple
+  ...Ripple
 }
