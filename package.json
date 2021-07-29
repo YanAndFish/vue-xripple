@@ -1,0 +1,37 @@
+{
+  "name": "vue-xripple",
+  "version": "0.0.1",
+  "description": "ripple effect for google material design",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && cp ./src/style/style.css ./dist/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanAndFish/vue-xripple.git"
+  },
+  "keywords": [
+    "vue",
+    "ripple",
+    "vuetify",
+    "google material design",
+    "ripple effect"
+  ],
+  "author": "yanandfish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YanAndFish/vue-xripple/issues"
+  },
+  "homepage": "https://github.com/YanAndFish/vue-xripple#readme",
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.6"
+  }
+}

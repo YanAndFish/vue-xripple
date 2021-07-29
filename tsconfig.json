@@ -1,0 +1,15 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "target": "ES2015",
+    "module": "CommonJS",
+    "outDir": "./dist"
+  },
+  "paths": {
+    "@/*": ["src/*"]
+  },
+  "exclude": ["node_modules"]
+}
